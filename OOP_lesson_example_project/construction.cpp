@@ -57,22 +57,6 @@ Student::Student(string name, string sname, int a, float mark) {
 
 }
 
-Student::Student(string name, string sname) {
-	cout << "contruction whit out" << endl;
-	name = name;
-	surname = sname;
-}
-
-Student::Student(float mark) {
-	cout << "contruction whit out" << endl;
-	avg_mark = mark;
-
-}
-
-Student::~Student() {
-	cout << "called Student destruction" << endl;
-}
-
 void Student::init(string name, string sname, int a, float mark) {
 
 	name = name;

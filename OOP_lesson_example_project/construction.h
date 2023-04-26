@@ -11,17 +11,16 @@ private:
 	float avg_mark;
 
 public:
-	const int Max_age = 160;
-	const int Min_age = 0;
-	const int Max_mark = 10;
-	const int Min_mark = 0;
+
+	static const int Max_age = 160;
+	static const int Min_age = 0;
+
+	static const int Max_mark = 10;
+	static const int Min_mark = 0;
 
 
 	Student();
 	Student(string name, string sname, int a, float mark);
-	Student(string name, string sname);
-	Student(float mark);
-	~Student();
 
 	void set_age(int a);
 	int get_age();
