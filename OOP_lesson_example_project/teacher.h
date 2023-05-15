@@ -1,12 +1,9 @@
 #pragma once
-#include "main.h"
+#include "human.h"
 
-class Teacher
+class Teacher : public Human
 {
 private:
-	string name;
-	string surname;
-	int age;
 	int power;
 
 public:
@@ -16,16 +13,9 @@ public:
 
 	~Teacher();
 
-	void set_age(int a);
-	int get_age();
-
-	string get_name();
-	void set_name(string n);
-
-	string get_surname();
-	void set_surname(string sn);
-
 	int get_power();
 	void set_power(int pow);
+
+	string convert_to_string();
 };
 

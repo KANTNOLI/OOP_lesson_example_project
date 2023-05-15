@@ -1,16 +1,17 @@
 #pragma once
-#include "construction.h"
+#include "student.h"
 
 class Manager {
 public:
 	float calculate_avg_mark(Student* list, int size) {
-		float avg = 0;
+		/*float avg = 0;
 
 		for (int i = 0; i < size; i++)
 		{
 			avg += list[i].get_avg_mark();
 		}
-		return avg / size;
+		return avg / size;*/
+		return 0;
 	}
 
 };
