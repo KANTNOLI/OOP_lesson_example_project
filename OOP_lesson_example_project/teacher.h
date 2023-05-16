@@ -9,7 +9,7 @@ private:
 public:
 	Teacher();
 	Teacher(string n, string sname, int a, int pow);
-	Teacher(string n, string sname);
+
 
 	~Teacher();
 

@@ -1,7 +1,6 @@
-#include "manaager.h"
+#include "main.h"
 
 int main() {
-	Student st;
 
 	return 0;
 }

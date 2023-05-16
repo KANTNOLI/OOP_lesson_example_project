@@ -40,14 +40,15 @@ string Group::get_name() {
 void Group::set_name(string n) {
 	name = n;
 }
+//
+//bool Group::add(Student student) {
+//	if (size < DEFAULT_SIZE)
+//	{ 
+//		list[size] = student; 
+//		size++; 
+//	}
+//}
 
-bool Group::add(Student student) {
-	if (size < DEFAULT_SIZE)
-	{
-		list[size] = student;
-		size++;
-	}
-}
 //void Group::remove(Student student) {
 //
 //}
@@ -57,6 +58,7 @@ bool Group::add(Student student) {
 //Student Group::get(int index) {
 //
 //}
+
 int Group::get_size() {
 	return size;
 }

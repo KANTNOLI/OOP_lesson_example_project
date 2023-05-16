@@ -1,9 +1,8 @@
 #pragma once
-
 #include "human.h"
 
 
-class Student : public Human{
+class Student : public Human {
 private:
 
 	float avg_mark;

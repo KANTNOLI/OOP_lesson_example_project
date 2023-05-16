@@ -1,12 +1,12 @@
-#include "main.h"
-#include "construction.h"
+#pragma once
+#include "student.h"
 
 class Group {
 public: 
 	static const int DEFAULT_SIZE = 10;
 private:
 	
-	Student list[DEFAULT_SIZE];
+	Student list[DEFAULT_SIZE]; 
 	int size;
 	string name;
 
@@ -22,6 +22,10 @@ public:
 	void set_name(string n);
 
 	bool add(Student student);
+
+
+
+
 	//void remove(Student student);
 	//void remove(int index);
 	//Student get(int index);

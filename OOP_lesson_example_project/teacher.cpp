@@ -22,7 +22,12 @@ int Teacher::get_power() {
 	return power;
 }
 void Teacher::set_power(int pow) {
-	power = pow > 0 and pow < 100 ? pow : -1;
+	if (pow > 0 and pow < 100) {
+		power = pow;
+	}
+	else {
+		power = 0;
+	}
 }
 
 string Teacher::convert_to_string() {
