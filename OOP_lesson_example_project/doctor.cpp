@@ -1,23 +1,8 @@
 #include "doctor.h"
 
-Doctor::Doctor() {
-	set_name("NoName");
-	set_surname("SurName");
-	set_age(15);
+Doctor::Doctor() : Human() {
 	skill = "NoSkill";
-	expirience = 16; 
-}
-Doctor::Doctor(string n, string sname, int a, int exp, string skil) {
-	set_name(n);
-	set_surname(sname);
-	set_age(a);
-	skill = skil;
-	expirience = exp;
-}
-Doctor::Doctor(string n, string sname) {
-	set_name(n);
-	set_surname(sname);
-
+	expirience = 0; 
 }
 
 Doctor::~Doctor() {}

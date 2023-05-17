@@ -9,9 +9,9 @@ private:
 	string skill;
 
 public:
-	Doctor();
-	Doctor(string n, string sname, int a, int exp, string skill);
-	Doctor(string n, string sname);
+	Doctor() : expirience(0), skill("NoSkill") {}
+	Doctor(string name, string surname, int age, int expirience, string skill) : Human(name, surname, age),
+		expirience(expirience), skill(skill) {}
 
 	~Doctor();
 

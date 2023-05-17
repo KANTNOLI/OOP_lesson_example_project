@@ -31,7 +31,6 @@ void Human::set_surname(string sn) {
 }
 
 Human::Human() {
-	/*cout << "default construction" << endl;*/
 	name = "no name";
 	surname = "no surname";
 	age = 16;
