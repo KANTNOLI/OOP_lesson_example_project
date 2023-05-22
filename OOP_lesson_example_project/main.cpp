@@ -1,8 +1,12 @@
 #include "human.h"
+#include "doctor.h"
 
 int main() {
+	Human* h = new Human();
 
-	Human human{ "Alex", "af", 13 };
+	h->get_name();
 
+
+	delete h;
 	return 0;
 }

@@ -1,5 +1,7 @@
 #include "human.h"
-
+Human::~Human() {
+	cout << "Call human destruction...";
+}
 
 int Human::get_age() {
 	return age;
@@ -28,20 +30,6 @@ string Human::get_surname() {
 
 void Human::set_surname(string sn) {
 	surname = sn;
-}
-
-Human::Human() {
-	name = "no name";
-	surname = "no surname";
-	age = 16;
-}
-
-Human::Human(string name, string sname, int a) {
-	cout << "contruction whit out" << endl;
-	name = name;
-	surname = sname;
-	age = a;
-
 }
 
 //

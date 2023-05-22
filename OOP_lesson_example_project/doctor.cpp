@@ -1,11 +1,8 @@
 #include "doctor.h"
 
-Doctor::Doctor() : Human() {
-	skill = "NoSkill";
-	expirience = 0; 
+Doctor::~Doctor() {
+	cout << "Call doctor destruction...";
 }
-
-Doctor::~Doctor() {}
 
 int Doctor::get_expirience() {
 	return expirience > 0 and expirience < 100 ? expirience : -1;

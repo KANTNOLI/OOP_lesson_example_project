@@ -11,7 +11,7 @@ Teacher::Teacher(string n, string sname, int a, int pow) {
 	set_surname(sname);
 	set_age(a);
 	power = pow;
-}
+} 
 
 
 Teacher::~Teacher() {

@@ -14,7 +14,7 @@ public:
 
 
 	Student();
-	Student(string name, string sname, int a, float mark);
+	Student(string name, string surname, int age, float avg_mark) : Human(name, surname, age), avg_mark(avg_mark) {}
 
 	float get_avg_mark();
 	void set_avg_mark(float avg);
